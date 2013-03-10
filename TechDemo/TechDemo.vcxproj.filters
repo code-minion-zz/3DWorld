@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Box.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowApp.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableTex2D.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DX10 Tech Demo.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayouts.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Construct1.cpp" />
+    <ClCompile Include="Construct2.cpp" />
+    <ClCompile Include="globals.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Box.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableTex2D.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayouts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowApp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Construct1.h" />
+    <ClInclude Include="Construct2.h" />
+    <ClInclude Include="globals.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{4758ca15-ef60-439b-899c-138791598927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{f6d3cea7-dab1-4582-9b5d-1a4cee85b785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f9a6c4d9-7f5a-4237-a0c6-9da99fde13be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Shaders\mesh.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\shadow.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\sky.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\buildshadowmap.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\drawshadowmap.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\lighthelper.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
